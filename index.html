@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Create Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <main class="container">
+            <section class="about-us">
+                <h1>Мастер-классы от Create Studio</h1>
+
+                <button type="submit" class="btn" id="open-pop-up">Записаться</button>
+            </section>
+
+        </main>
+    </div>
+    
+    <div class="pop-up" id="pop-up">
+        <div class="pop-up-container">
+            <div class="pop-up-body" id="pop-up-body">
+                <p class="pop-up-text">Заявка на участие</p>
+                <form action="" class="data-form">
+                    <input type="text" placeholder="ФИО" required name="name" class="name">
+                    <br>
+                    <input type="email" placeholder="E-mail" required name="email" class="email">
+                    <br>
+                    <button class="send-btn">Отправить</button>
+                </form>
+                <div class="pop-up-close" id="pop-up-close"></div>
+                <p class="success">Данные отправлены на сервер</p>
+                <p class="failure">Произошла ошибка при отправке данных</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

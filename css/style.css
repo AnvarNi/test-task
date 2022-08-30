@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Roboto", "Verdana", sans-serif;
+  color: #000000;
+  background-color: #E3E5E1;
+
+}
+
+.wrapper {
+  background: url(../img/bgimage.png) no-repeat 0 0;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 0;
+
+  background: url(../img/office.png) no-repeat 700px 120px;
+
+}
+
+.about-us {
+  width: 500px;
+  min-height: 400px;
+  padding-left: 90px;
+  padding-top: 150px;
+
+}
+
+.about-us h1 {
+  margin: 0;
+  margin-bottom: 80px;
+
+  font-size: 65px;
+  line-height: 65px;
+  color: #6C8474;
+}
+
+.btn {
+  position: relative;
+
+  display: block;
+  width: 330px;
+  height: 80px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: #F3F3F3;
+  background-color: #6C8474;
+  border: none;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.28);
+  border-radius: 50px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #6C8474;
+  border: none;
+}
+
+.btn:active {
+  background-color: #D9D9D9;
+}
+
+.pop-up {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, .8);
+  z-index: 2;
+}
+
+.pop-up.active {
+  display: block;
+}
+
+.success {
+  display: none;
+  color: green;
+}
+
+.success.active {
+  display: block;
+}
+
+.failure {
+  display: none;
+  color: red;
+}
+
+.failure.active {
+  display: block;
+}
+
+.pop-up-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.pop-up-body {
+  margin: auto;
+  width: 600px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 15px 110px 15px;
+  position: relative;
+}
+
+.pop-up-body input {
+  display: block;
+  margin: 20px auto 0px auto;
+  width: 450px;
+  padding: 17px 20px;
+  background-color: #E5E5E5;
+  border-radius: 10px;
+  border: none;
+  font-size: 17px;
+  color: #89909F;
+}
+
+.pop-up-text {
+  font-size: 22px;
+  margin-top: -30px;
+  height: 60px;
+}
+
+.pop-up-body button {
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #F3F3F3;
+  background-color: #6C8474;
+  border: none;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.28);
+  border-radius: 50px;
+}
